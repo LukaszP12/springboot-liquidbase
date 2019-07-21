@@ -1,0 +1,6 @@
+2019-07-21 14:23:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK [42102-199]
+2019-07-21 14:39:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DATABASECHANGELOCK" not found; SQL statement:
+SELECT * FROM DATABASECHANGELOCK [42102-199]
